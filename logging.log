@@ -1,0 +1,4 @@
+[2022-09-03 08:58:29.242288 +02:00] INFO [logging] src/main.rs:11: informing: Hi there
+[2022-09-03 08:58:29.242402 +02:00] WARN [logging] src/main.rs:12: warning: Hi there
+[2022-09-03 08:58:29.242441 +02:00] ERROR [logging] src/main.rs:13: messing everything up: Hi there
+[2022-09-03 08:58:29.242512 +02:00] WARN [logging] src/main.rs:36: errorrrrrr -> No such file or directory (os error 2)
