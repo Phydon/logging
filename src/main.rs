@@ -1,6 +1,8 @@
 use flexi_logger::{detailed_format, Duplicate, FileSpec, Logger};
 use log::{error, info, warn};
 use std::{error::Error, fs::File, process};
+use std::thread::sleep;
+use std::time::Duration;
 
 // this logs some stuff
 fn lets_log(txt: &str) {
@@ -31,6 +33,7 @@ fn main() {
 
     if let Err(err) = return_err() {
         warn!("errorrrrrr -> {err}");
+        sleep(Duration::from_millis(3000));
         process::exit(1);
     }
 }

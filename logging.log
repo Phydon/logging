@@ -2,3 +2,7 @@
 [2022-09-03 08:58:29.242402 +02:00] WARN [logging] src/main.rs:12: warning: Hi there
 [2022-09-03 08:58:29.242441 +02:00] ERROR [logging] src/main.rs:13: messing everything up: Hi there
 [2022-09-03 08:58:29.242512 +02:00] WARN [logging] src/main.rs:36: errorrrrrr -> No such file or directory (os error 2)
+[2022-09-06 12:44:26.827496 +02:00] INFO [logging] src/main.rs:9: informing: Hi there
+[2022-09-06 12:44:26.828448 +02:00] WARN [logging] src/main.rs:10: warning: Hi there
+[2022-09-06 12:44:26.828582 +02:00] ERROR [logging] src/main.rs:11: messing everything up: Hi there
+[2022-09-06 12:44:26.828701 +02:00] WARN [logging] src/main.rs:35: errorrrrrr -> No such file or directory (os error 2)
